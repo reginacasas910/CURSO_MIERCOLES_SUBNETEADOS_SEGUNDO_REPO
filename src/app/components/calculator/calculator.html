@@ -1,0 +1,31 @@
+<div class="calculator-container">
+  <h3 class="calculator-title">🧮 Calculadora</h3>
+
+  <div class="calculator">
+    <input type="text" class="display" [value]="display" readonly>
+
+    <div class="buttons">
+      <button (click)="append('7')">7</button>
+      <button (click)="append('8')">8</button>
+      <button (click)="append('9')">9</button>
+      <button (click)="append('/')">÷</button>
+
+      <button (click)="append('4')">4</button>
+      <button (click)="append('5')">5</button>
+      <button (click)="append('6')">6</button>
+      <button (click)="append('*')">×</button>
+
+      <button (click)="append('1')">1</button>
+      <button (click)="append('2')">2</button>
+      <button (click)="append('3')">3</button>
+      <button (click)="append('-')">−</button>
+
+      <button (click)="append('0')">0</button>
+      <button (click)="append('.')">.</button>
+      <button (click)="calculate()">=</button>
+      <button (click)="append('+')">+</button>
+
+      <button class="clear" (click)="clear()">C</button>
+    </div>
+  </div>
+</div>

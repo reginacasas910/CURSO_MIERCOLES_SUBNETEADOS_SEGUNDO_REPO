@@ -1,12 +1,18 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { ContainerComponent } from './components/container/container';
+import { FloatingElements } from './components/floating-elements/floating-elements';
+import { PassionSection } from "./components/passion-section/passion-section";
+import { ProfileSection } from "./components/profile-section/profile-section";
+import { CalculatorComponent } from "./components/calculator/calculator";
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [ContainerComponent, FloatingElements, PassionSection, ProfileSection, CalculatorComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('ANGULAR_APP');
+
 }
+

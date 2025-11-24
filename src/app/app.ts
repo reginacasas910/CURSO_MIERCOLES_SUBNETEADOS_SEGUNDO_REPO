@@ -1,6 +1,5 @@
 import { Component, signal } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { ReginaIndex } from './components/regina-index/regina-index';
 
 @Component({
   selector: 'app-root',

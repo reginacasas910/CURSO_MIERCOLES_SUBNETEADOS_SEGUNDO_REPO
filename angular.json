@@ -23,22 +23,22 @@
             ],
             "styles": [
               "src/styles.scss"
+            ],
+            "budgets": [
+              {
+                "type": "initial",
+                "maximumWarning": "5MB",
+                "maximumError": "10MB"
+              },
+              {
+                "type": "anyComponentStyle",
+                "maximumWarning": "512kB",
+                "maximumError": "1MB"
+              }
             ]
           },
           "configurations": {
             "production": {
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "5MB",
-                  "maximumError": "10MB"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "512kB",
-                  "maximumError": "1MB"
-                }
-              ],
               "outputHashing": "all",
               "optimization": true
             },

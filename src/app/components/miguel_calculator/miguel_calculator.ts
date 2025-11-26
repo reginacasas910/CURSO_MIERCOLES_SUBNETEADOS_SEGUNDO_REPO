@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-calculator',
   standalone: true,
   templateUrl: './miguel_calculator.html',
-  styleUrls: ['./miguel_calculator.css']
+  styleUrls: ['./miguel_calculator.scss']
 })
 export class CalculatorComponent {
   display: string = '';

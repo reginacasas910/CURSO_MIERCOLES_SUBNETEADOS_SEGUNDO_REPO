@@ -3,7 +3,7 @@ import { Component, ElementRef, HostListener } from '@angular/core';
 @Component({
   selector: 'app-container',
   templateUrl: './miguel_container.html',
-  styleUrls: ['./miguel_container.css']
+  styleUrls: ['./miguel_container.scss']
 })
 export class ContainerComponent {
   constructor(private el: ElementRef) {}

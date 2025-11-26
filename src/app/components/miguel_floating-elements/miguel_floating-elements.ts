@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-floating-elements',
   imports: [],
   templateUrl: './miguel_floating-elements.html',
-  styleUrl: './miguel_floating-elements.css'
+  styleUrls: ['./miguel_floating-elements.scss'],
 })
 export class FloatingElements {
 

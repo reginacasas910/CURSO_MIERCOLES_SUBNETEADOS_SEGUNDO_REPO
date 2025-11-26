@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-eduardo',
   imports: [],
   templateUrl: './eduardo.html',
-  styleUrl: './eduardo.css'
+  styleUrls: ['./eduardo.scss']
 })
 export class Eduardo {
 

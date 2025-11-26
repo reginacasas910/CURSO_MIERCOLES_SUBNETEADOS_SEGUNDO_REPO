@@ -7,10 +7,11 @@
     background: linear-gradient(135deg, #fce4ec, #e1f5fe);
     color: #444;
     text-align: center;
-    min-height: 100vh;
+    min-height: 99.99vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 1540px;
 }
 
 /* Títulos con Bungee */
@@ -44,6 +45,6 @@ img:hover {
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.15);
     display: block;
-    width: 900px;  
+    width: 50%;  
     margin: 0 auto;   /* 👈 centra horizontal */
 }

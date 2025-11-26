@@ -1,0 +1,53 @@
+/* reset global - pegar al inicio de src/styles.css */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0; /* <- quitar padding global */
+  height: 100%;
+}
+
+/* crea una clase .page-wrapper para el padding que antes estaba en body */
+.page-wrapper {
+  padding: 48px 20px; /* antes estaba en body */
+  min-height: 100vh;
+}
+
+/* NAVBAR GLOBAL — pegar en src/styles.css (al final) */
+.navbar {
+  width: 100vw;             /* ocupar todo el ancho del viewport */
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;  /* centrar links */
+  gap: 20px;
+  background: linear-gradient(90deg,#1e88e5,#42a5f5);
+  border-bottom: 2px solid rgba(0,0,0,0.12);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 999;
+  position: fixed;        /* 👈 SE MANTIENE SIEMPRE ARRIBA */
+}
+
+/* eliminar cualquier padding heredado de padres con clases comunes */
+.navbar, nav, header {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* enlaces */
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: transform .18s ease, background .18s ease;
+}
+
+.navbar a:hover { transform: translateY(-2px); background: rgba(255,255,255,0.06); }
+
+.navbar a.active-link { background: rgba(255,255,255,0.12); color: #fff; }

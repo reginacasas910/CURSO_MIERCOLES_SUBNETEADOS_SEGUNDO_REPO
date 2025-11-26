@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-profile-section',
   imports: [],
   templateUrl: './miguel_profile-section.html',
-  styleUrl: './miguel_profile-section.css'
+  styleUrls: ['./miguel_profile-section.scss'],
 })
 export class ProfileSection {
 

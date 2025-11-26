@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-regina-index',
   imports: [],
   templateUrl: './regina-index.html',
-  styleUrls: ['./regina-index.css'],
+  styleUrls: ['./regina-index.scss'],
 })
 export class ReginaIndex {
 

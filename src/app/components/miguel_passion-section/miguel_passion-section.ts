@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-passion-section',
   imports: [],
   templateUrl: './miguel_passion-section.html',
-  styleUrl: './miguel_passion-section.css'
+  styleUrls: ['./miguel_passion-section.scss']
 })
 export class PassionSection {
 

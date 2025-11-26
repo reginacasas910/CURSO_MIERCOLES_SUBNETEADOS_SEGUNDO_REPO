@@ -9,7 +9,7 @@ import { ProfileSection } from '../miguel_profile-section/miguel_profile-section
   selector: 'app-miguel',
   imports: [CalculatorComponent,ContainerComponent,FloatingElements,PassionSection,ProfileSection],
   templateUrl: './miguel.html',
-  styleUrl: './miguel.css',
+  styleUrls: ['./miguel.scss'],
 })
 export class Miguel {
 

@@ -7,7 +7,7 @@ import { LoaderComponent } from '../daniel_loader/daniel_loader.component';
   selector: 'app-daniel',
   imports: [HeaderComponent,ButtonComponent,LoaderComponent],
   templateUrl: './daniel.html',
-  styleUrl: './daniel.css',
+  styleUrls: ['./daniel.scss'],
 })
 export class Daniel {
 
